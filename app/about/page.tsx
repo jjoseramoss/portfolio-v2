@@ -35,12 +35,13 @@ export default function About() {
             <ul className="list-disc flex flex-col gap-y-5 px-4">
               <li>I like to go fishing with friends</li>
               <li>My favorite movies are Rocky IV, Project Hail Mary, and Spider-Man (the og)</li>
-              <li>I&apos;m on the grind for a lean mean machine physique. I love the gym.</li>
+              <li>I&apos;m on the grind for a lean strong physique. I love the gym and aiming to get better at lifting.</li>
+              <li>I love spending time with my gf ❣</li>
             </ul>
             
 
             <p className="pt-15">If you&apos;re a recruiter, or just a cool person, <a className="text-orange-600 hover:text-orange-700 hover:font-bold transition" href="mailto:josemramos.tech@gmail.com">let&apos;s talk</a></p>
-            <p className="pt-15">Have a blessed day, <br /> <span className="text-black">Jose Ramos</span></p>
+            <p className="pt-15">Have an awesome day, <br /> <span className="text-black">Jose Ramos</span></p>
           </div> 
           <Image className="pt-15 w-full" src={boysPic} alt="Pic of me and the boys"></Image>
         </div> 
