@@ -25,9 +25,9 @@ export default function ProjectCard({
       </div>
 
       <p>{description}</p>
-      <ul className="flex gap-x-3">
+      <ul className="flex gap-x-3 overflow-scroll scr scrollbar-thumb-orange-600 md:scrollbar-none pb-3">
         {tools.map((tool, idx) => (
-            <div className="border rounded px-2 text-gray-400 border-gray-400" key={idx}>{tool}</div>
+            <div className="border rounded px-2 text-gray-400 border-gray-400 " key={idx}>{tool}</div>
         ))}
       </ul>
       <hr className="border text-gray-300 mt-5"/>
