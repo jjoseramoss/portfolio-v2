@@ -5,7 +5,7 @@ import profilePic from "../public/jo.jpg"
 export default function Home() {
   return (
     <div className="h-screen w-screen flex justify-center items-center font-mono">
-      <div className=" flex flex-col justify-center items-center w-[80%] mb-20 mt-10">
+      <div className=" flex flex-col justify-center items-center w-[80%] mb-20 mt-15">
         {/* Profile Picture */}
         <div className="w-35 h-35">
           <Image src={profilePic} loading="eager" className="rounded-full" alt="Jose Ramos"></Image>
