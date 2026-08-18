@@ -6,9 +6,14 @@ export default function About() {
   return ( 
     <div className="w-screen min-h-screen flex justify-center md:items-center text-sm"> 
       <div className="w-[95%] xl:w-[35%] p-5 my-10 flex flex-col"> 
-        <Link href="/" className="text-[#a1a1aa] pt-5 hover:text-black font-mono text-sm font-light">
-          ← Back to home
-        </Link> 
+        <span>
+          <Link
+            href="/"
+            className=" text-[#a1a1aa] pt-5 hover:text-black font-mono text-sm font-light"
+          >
+            ← Back to home
+          </Link>
+        </span>
         <br /> 
         
         {/* Main Content */} 
