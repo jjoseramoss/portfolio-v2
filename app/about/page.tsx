@@ -25,7 +25,7 @@ export default function About() {
             <p>I&apos;m studying Computer Science at UTRGV, graduating Dec 2026</p> 
             <p>I&apos;m really into building software, especially stuff that uses AI in a useful way.</p> 
             <p>Right now I work as a Web Dev Student Assistant for UTRGV UMC, where I help update older university sites and improve accessibility.</p>
-            <p>I&apos;m also the president of Data Structures and Algorithms Architects (DSAA), wherewe do tech interview prep and help each other get better at DSA</p>
+            <p>I&apos;m also the president of Data Structures and Algorithms Architects (DSAA), where we do tech interview prep and help each other get better at DSA.</p>
             <h2 className="font-bold text-xl pt-15 tracking-normal">History</h2>
             <p>I got into CS because I grew up on videogames. Games always felt like this crazy new way to interact with the world.</p>
             <p>Once I realized you can build stuff on the internet that people actually use, I was hooked. I want to build software that helps people and makes life smoother.</p>
